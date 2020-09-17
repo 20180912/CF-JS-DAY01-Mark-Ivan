@@ -1,4 +1,8 @@
 //Exercise 1
+var brands = ["Tesla", "Audi", "Renault", "Volvo", "Mazda", "Fiat", "Ferrari"]
+console.log(brands.sort())
+
+//Exercise 2
 var fruits = ["apple", "banana", "kiwi"]
 console.log(fruits)
 fruits.push("orange")
@@ -6,7 +10,6 @@ console.log(fruits)
 fruits.pop()
 console.log(fruits)
 
-//Exercise 2
 var animals = ["monkey", "horse", "dog"]
 console.log(animals)
 animals.sort()
