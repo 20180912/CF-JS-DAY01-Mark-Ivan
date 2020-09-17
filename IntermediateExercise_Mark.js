@@ -20,6 +20,11 @@ document.write(fruits2 + "<br>")
 var temp = new Array()
 temp = fruits2.split("/")
 
+//using a loop
 for(var i = 1; i < temp.length; i += 1) {
     document.write(temp[i] + "<br>");
 }
+
+//using join
+temp = temp.join("<br>")
+document.write(temp)
