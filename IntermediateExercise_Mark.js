@@ -17,14 +17,18 @@ console.log(animals)
 //Exercise 3
 var fruits2 = "mango/cherries/kiwi/grapes/pear/peach/orange/lemon"
 document.write(fruits2 + "<br>")
-var temp = new Array()
-temp = fruits2.split("/")
+/*var temp = new Array()
+temp = fruits2.split("/")*/
+var temp = fruits2.split("/")
 
 //using a loop
 for(var i = 1; i < temp.length; i += 1) {
     document.write(temp[i] + "<br>");
+    console.log(temp[i])
 }
 
 //using join
-temp = temp.join("<br>")
-document.write(temp)
+temp2 = temp.join("<br>")
+document.write(temp2)
+console.log(temp)
+console.log(temp2)
